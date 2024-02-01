@@ -21,3 +21,7 @@ This project is a demonstration website for a small business - Footbridge Fish &
 ![displaying_page](./assets/newImages/screenshots/mobile1.jpg) ![displaying_page](./assets/newImages/screenshots/mobile2.jpg) ![displaying_page](./assets/newImages/screenshots/mobile3.jpg) 
 ![displaying_page](./assets/newImages/screenshots/mobile4.jpg) ![displaying_page](./assets/newImages/screenshots/mobile5.jpg) ![displaying_page](./assets/newImages/screenshots/mobile6.jpg)
 ![displaying_page](./assets/newImages/screenshots/mobile7.jpg) ![displaying_page](./assets/newImages/screenshots/mobile8.jpg) ![displaying_page](./assets/newImages/screenshots/mobile9.jpg) ![displaying_page](./assets/newImages/screenshots/mobile10.jpg)
+
+## For Pads
+![displaying_page](./assets/newImages/screenshots/pad1.jpg) ![displaying_page](./assets/newImages/screenshots/pad2.jpg) ![displaying_page](./assets/newImages/screenshots/pad3.jpg) ![displaying_page](./assets/newImages/screenshots/pad4.jpg)
+
