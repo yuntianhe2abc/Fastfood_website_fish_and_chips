@@ -1,0 +1,40 @@
+$bg-color-light: rgb(250, 250, 250);
+$bg-color-dark: rgb(0, 0, 0);
+$bg-color-light-blue:#2596BE;
+$section-title-height: 4rem;
+$section-title-margin-large: 70px;
+$section-title-margin-small: 40px;
+
+@mixin w-h-bgcolor ($w: 100%, $h: 100%, $bgColor: $bg-color-light) {
+    background-color: $bgColor;
+    height: $h;
+    width: $w;
+}
+@mixin flexboxDiv ($direction:column) {
+    display: flex;
+    flex-direction:$direction;
+}
+
+@mixin flex-r-c-sb ($a-i: center, $j-c: center) {
+    display: flex;
+    align-items: $a-i;
+    justify-content: $j-c;
+}
+
+@mixin position-c-c {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    translate: -50% -50%;
+}
+
+@mixin position-fixed-c-c {
+    position:fixed;
+    top: 50%;
+    left:50%;
+    translate: -50% -50%;
+}
+
+ul {
+    list-style: none;
+}

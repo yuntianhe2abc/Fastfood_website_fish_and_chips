@@ -1,0 +1,78 @@
+@import 'common';
+
+
+.nav {
+    @include w-h-bgcolor($h: 70px, $bgColor: $bg-color-dark);
+    position: sticky;
+    top: 0;
+    @include flex-r-c-sb();
+    z-index: 999;
+    color: $bg-color-light;
+
+    .navMobileBtn {
+        display: none;
+    }
+
+    ul {
+        width: 70%;
+        @include flex-r-c-sb($j-c: space-between);
+
+        li {
+            position: relative;
+
+            a {
+                text-decoration: none;
+                color: $bg-color-light;
+            }
+
+            a:hover {
+                color: lightcoral;
+            }
+        }
+
+        li:not(:last-child)::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            @include w-h-bgcolor(0, 2px, lightcoral);
+            transition: width 0.4s;
+        }
+
+        li:not(:last-child):hover {
+            &:after {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.reservationBtn {
+    background-color: transparent;
+    width: 100bem;
+    height: 30px;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: $bg-color-light;
+    border: 2px solid lightcoral;
+    border-radius: 100px;
+    transition: 0.4s;
+}
+
+.reservationBtn:hover {
+    background-color: lightcoral;
+    color: $bg-color-dark;
+}
+
+.reservation {
+    @include w-h-bgcolor(600px, 500px, $bg-color-light);
+    @include position-fixed-c-c;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.reservation.open {
+    display: block;
+}

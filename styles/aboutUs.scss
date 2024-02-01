@@ -1,0 +1,95 @@
+@import 'common';
+
+.aboutUsInfoContainer {
+    width: 70%;
+    margin: 0 auto;
+    padding:$section-title-margin-small 0;
+    text-align: center;
+
+    h3,#introduction {
+        width: 100%;
+        margin-bottom: $section-title-margin-small;
+        font-size: 1.17rem;
+        font-weight: bold;
+    }
+
+    span {
+        display: block;
+    }
+
+    #bossSignature {
+        font-family: 'Dancing Script', sans-serif;
+        font-size: 2rem;
+        margin-bottom: $section-title-margin-small;
+    }
+
+    .tags {
+        width: 100%;
+        @include flex-r-c-sb;
+        flex-wrap: wrap;
+        p{
+            background-color: lightcoral;
+            height:40px;
+            padding: 0 15px;
+            border-radius: 100px;
+            color: $bg-color-light;
+            font-weight: bold;
+            line-height: 40px;
+            margin-bottom:10px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.aboutUsImageContainer {
+    padding: 0 20px;
+    gap: 20px;
+
+    li {
+        position: relative;
+        @include flex-r-c-sb();
+
+        img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .aboutUsImgCover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            @include w-h-bgcolor($bgColor: rgba(0, 0, 0, 0.5));
+            color: $bg-color-light;
+            font-weight: bold;
+            text-overflow: clip;
+            font-size: 1.5rem;
+            text-align: center;
+            line-height: 3rem;
+            padding: 20px;
+            border-radius: 10px;
+
+            p{
+                @include position-c-c;
+            }
+        }
+
+        // &:after {
+        //     content: "js";
+        //     display: inline-block;
+        //     @include w-h-bgcolor(100%, 0, rgba(0, 0, 0, 0.6));
+        //     color: transparent;
+        //     font-size: 3rem;
+        //     text-align: center;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     transition: 0.5s;
+        // }
+    }
+
+    // li:hover::after {
+    //     height: calc(100% - 50px);
+    //     color: $bg-color-light;
+    //     padding-top: 50px;
+    // }
+}

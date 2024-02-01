@@ -1,0 +1,67 @@
+@import 'common';
+
+
+.findUs {
+    h2 {
+        margin-bottom: $section-title-margin-small;
+    }
+
+    .findUsInfoWrapper {
+        padding: 0 $section-title-margin-large $section-title-margin-large;
+        background-color: $bg-color-dark;
+        color: $bg-color-light;
+        @include flex-r-c-sb(flex-start, center);
+        flex-wrap: wrap;
+
+        #shopName {
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        >div {
+            margin-right: 50px;
+            margin-top: 50px;
+        }
+
+        ul {
+            li {
+                a {
+                    text-decoration: none;
+                    color: $bg-color-light;
+                }
+            }
+        }
+
+        div,
+        li,
+        a,
+        span {
+            line-height: 2rem;
+        }
+
+        #findUsLocationWrapper{
+            @include flex-r-c-sb;
+            // flex-wrap: wrap;
+            div:first-child{
+                margin-right: 50px;
+            }
+        }
+        iframe {
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        .openingHours{
+            li{
+                @include flex-r-c-sb($j-c:space-between);
+            }
+        }
+    }
+}
