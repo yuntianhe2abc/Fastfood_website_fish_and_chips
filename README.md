@@ -1,4 +1,7 @@
 # Fastfood-website-Footbridge-fish-chips
+
+[LIVE DEMO](https://yuntianhe2abc.github.io/Fastfood_website_fish_and_chips/)
+
 This project is a demonstration website for a small business - Footbridge Fish & Chips. It includes home, menu, testimonials, about us and find us pages. Through this project, my knowledge of HTML, CSS, SASS, and JS was consolidated. And I also learned a lot about **file and folder structure, SASS features, responsive design, and debugging on mobile devices.**
 
  - The layout and color scheme are designed according to their logo and menu.
