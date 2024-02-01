@@ -13,8 +13,6 @@ Currently, it contains static pages. No database involved. In the future, reserv
 
 ## For PCs
 
-![alt pc1](https://github.com/yuntianhe2abc/Fastfood_website_Footbridge_Fish-Chips/blob/main/assets/newImages/screenshots/pc1.jpg)
-![alt pc1](https://github.com/yuntianhe2abc/Fastfood_website_Footbridge_Fish-Chips/blob/main/assets/newImages/screenshots/pc2.jpg)
-![alt pc1](https://github.com/yuntianhe2abc/Fastfood_website_Footbridge_Fish-Chips/blob/main/assets/newImages/screenshots/pc3.jpg)
+![displaying_page](./assets/images/screenshots/screenshot_PC1.png) ![displaying_page](./assets/images/screenshots/screenshot_PC2.png) ![displaying_page](./assets/images/screenshots/screenshot_PC3.png)
 
 
